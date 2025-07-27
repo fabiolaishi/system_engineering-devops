@@ -1,0 +1,6 @@
+touch 0-current_working_directory
+nano 0-current_working_directory
+
+#!/bin/bash
+pwd
+
