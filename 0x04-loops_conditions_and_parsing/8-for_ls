@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#  list current directory contents showing only text after the first dash, excluding hidden files
+for file in *; do
+  
+  [ -e "$file" ] || continue
+
+  echo "${file#*-}"
+done
